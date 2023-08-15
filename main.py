@@ -14,13 +14,3 @@ from  social_project.photo_api import photos
 from  social_project.users_api import users
 
 
-
-# @app.get('/hello')
-# async def hello():
-#     return {'hello': 'Fastapi'}
-#
-#
-#
-# @app.post('/hello')
-# async def post_home(name: str):
-#     return {'message': f'hello {name}'}

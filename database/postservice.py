@@ -140,12 +140,3 @@ def get_exact_hashtag_db(hashtag_name):
 
     return []
 
-### Удаление ###
-# exact_user = db.query(PostPhoto).filter_by(id=post_id).first()
-# db.delete(exact_user)
-# db.commit()
-
-### Изменение ###
-# exact_user = db.query(PostPhoto).filter_by(id=post_id).first()
-# exact_user.text = new_data
-# db.commit()
